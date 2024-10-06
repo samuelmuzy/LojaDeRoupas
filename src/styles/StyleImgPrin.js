@@ -4,14 +4,15 @@ import ImagemP from '../assets/freepik-export-202410052112196ykP.png'
 export const Button = styled.button`
     height: 6vh;
     width: 15%;
-    margin-top: 2%;
+    margin-top: 3%;
     border-radius: 8px;
     background-color: white;
     border: solid 1px #DB8D0F;
     color: #07548c;
-    transition: 800ms;
+    transition: 500ms;
     border:solid 1px black;
     margin-left: 8%;
+    cursor: pointer;
     &:hover{
         color: white;
         background-color: black;
@@ -32,6 +33,7 @@ export const Texto = styled.p`
     font-size: 26px;
     width: 30%;
     margin-left: 8%;
+    margin-top: 3%;
 
 `
 export const Titulo = styled.h1`

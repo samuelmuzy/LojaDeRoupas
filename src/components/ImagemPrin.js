@@ -5,7 +5,7 @@ export const ImagemPrin = () =>{
     <>
         <DivPrincipal>
             <Titulo>Nova Moda</Titulo>
-            <Texto>j\fnljfjanfjandjanfjknalkfdnjsanfkjsf</Texto>
+            <Texto>Compre a moda chele fodas para melhores pikas pai compre compre</Texto>
             <Button>Clique aqui</Button>
         </DivPrincipal>
     </>
