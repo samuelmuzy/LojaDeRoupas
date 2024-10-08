@@ -1,11 +1,13 @@
 import { useLocation } from 'react-router-dom';
 import { MainCompras } from '../components/MainCompras';
 import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
 
 export const Compras = () => {
     
     const location = useLocation();
-    const { produtos } = location.state || {};
+    /*Recebe o arry da pagina Loja*/
+    const { produtos } = location.state || {}; 
     
     if (!produtos) {
         return <div>Nenhum produto selecionado</div>;
@@ -14,7 +16,8 @@ export const Compras = () => {
     return (
         <>
             <Header></Header>
-            <MainCompras produtos={produtos}></MainCompras>
+            <MainCompras produtos={produtos}></MainCompras> 
+            <Footer></Footer>
         </>
     );
 }

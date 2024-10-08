@@ -5,11 +5,11 @@ import Imagem1 from '../assets/7570000.jpg'
 export const Header = () =>{
     const navegar = useNavigate()
     
-    const onClickPaginaPrincipal = () =>{
+    const onClickPaginaPrincipal = () =>{ //metod para passar o caminho para pagina principal
         navegar('/')
     }
-    const onClickPaginaProdutos = () =>{
-        navegar('/TerceiraPage')
+    const onClickPaginaProdutos = () =>{ //pagina produtos
+        navegar('/TerceiraPagina')
     }
 
 

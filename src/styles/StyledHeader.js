@@ -22,5 +22,5 @@ export const DivHeader = styled.div`
     border-bottom: solid 1px #49d1d1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 `

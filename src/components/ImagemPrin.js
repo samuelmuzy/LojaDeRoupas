@@ -5,7 +5,7 @@ export const ImagemPrin = () =>{
     const navegar = useNavigate();
 
     const onClickPaginaProdutos = () =>{
-        navegar('/TerceiraPage')
+        navegar('/TerceiraPagina')
     }
     return(
     <>

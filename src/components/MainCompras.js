@@ -1,13 +1,13 @@
 import React from "react"
 import { DivPrincipal,TextoCompras,ImagemCompras, Descricao } from "../styles/StyledMainCompras"
 import { Button } from "../styles/StyleImgPrin"
-import { Card } from "../styles/StyledMain"
+
 
 export const MainCompras = (props) =>{
     
     return(
-    <>
-        {props.produtos.map((prod)=>{
+    <> {/*Recebe um arry que foi selecionado na primeira pagina e o renderiza de maneira maior e com descriçao*/ }
+        {props.produtos.map((prod)=>{  
                 
             return(  
                 <DivPrincipal key={prod.id}>
