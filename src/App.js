@@ -1,13 +1,19 @@
-import { Header } from "./components/Header";
-import { ImagemPrin } from "./components/ImagemPrin";
-import './App.css'
-import { Main } from "./components/Main";
+import { Compras } from "./pages/Compras";
+import { Loja } from "./pages/Loja";
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import { Produtos } from "./pages/Produtos";
 function App() {
   return (
     <>
-      <Header></Header>
-      <ImagemPrin></ImagemPrin>
-      <Main></Main>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Loja/>}/>
+          <Route path='/SecondPage' element={<Compras/>}/>
+          <Route path='/TerceiraPage' element={<Produtos/>}/>
+          <Route path='*' element={<h1>Not found</h1>}/>
+        </Routes>
+      </BrowserRouter>
+      
     </>
   );
 }

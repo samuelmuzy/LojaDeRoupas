@@ -1,12 +1,18 @@
 import { DivPrincipal,Titulo,Texto,Button } from "../styles/StyleImgPrin"
+import { useNavigate } from 'react-router-dom';
 
 export const ImagemPrin = () =>{
+    const navegar = useNavigate();
+
+    const onClickPaginaProdutos = () =>{
+        navegar('/TerceiraPage')
+    }
     return(
     <>
         <DivPrincipal>
-            <Titulo>Nova Moda</Titulo>
-            <Texto>Compre a moda chele fodas para melhores pikas pai compre compre</Texto>
-            <Button>Clique aqui</Button>
+            <Titulo>Moda com Estilo</Titulo>
+            <Texto>A moda é sobre expressar sua identidade. Escolha peças que combinam com você </Texto>
+            <Button onClick={onClickPaginaProdutos}>Clique aqui</Button>
         </DivPrincipal>
     </>
     )

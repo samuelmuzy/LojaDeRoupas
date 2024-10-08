@@ -13,7 +13,7 @@ export const DivProdutos = styled.div`
     padding: 20px;
 `
 export const Card = styled.div`
-    flex: 1 1 300px;
+    flex: 1 1 280px;
     margin: 10px;
     max-width: 300px;
     border: 1px solid #ddd;
