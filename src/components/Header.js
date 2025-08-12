@@ -1,6 +1,6 @@
 import {P,Imagem,DivHeader} from '../styles/StyledHeader'
 import { useNavigate } from 'react-router-dom';
-import Imagem1 from '../assets/7570000.jpg'
+import Imagem1 from '../assets/7570000-removebg-preview.png'
 
 export const Header = () =>{
     const navegar = useNavigate()
