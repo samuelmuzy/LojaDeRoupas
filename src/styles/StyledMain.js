@@ -13,6 +13,12 @@ export const DivConteudos = styled.div`
     align-items: center;
     justify-content: space-around;
     margin-top: 3%;
+    @media (max-width: 756px) {
+        width: 90%;
+        flex-direction:column-reverse;
+        text-align: center;
+        padding: 10%;
+    } 
 `
 
 export const DivProdutos = styled.div`
@@ -20,6 +26,11 @@ export const DivProdutos = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    @media (max-width: 756px) {
+        width: 90%;
+        padding  :4% ;
+        
+    } 
 `
 export const Card = styled.div`
     flex: 1 1 280px;
@@ -41,10 +52,18 @@ export const Imagem = styled.img`
 `
 export const ImagemMaior = styled.img`
     width: 40%;
+    @media (max-width: 756px) {
+        width: 90%;
+        
+    } 
 `
 
 export const TextVerao = styled.p`
     width: 600px;
+    @media (max-width: 756px) {
+        width: 90%;
+        
+    } 
 `
 
 

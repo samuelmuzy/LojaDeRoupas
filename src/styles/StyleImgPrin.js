@@ -17,6 +17,11 @@ export const Button = styled.button`
         color: white;
         background-color: #49d1d1;
     }
+    @media (max-width: 756px) {
+        width: 90%;
+        margin-left: 4%;
+        
+    } 
 `
 
 export const DivPrincipal = styled.div`
@@ -28,15 +33,29 @@ export const DivPrincipal = styled.div`
     height: 85vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${ImagemP});
     background-size: cover;
+    @media (max-width: 756px) {
+        text-align:center ;
+        background-size: 1000;
+        background-position: 70%;
+    } 
 `;
 export const Texto = styled.p`
     font-size: 26px;
     width: 32%;
     margin-left: 8%;
     margin-top: 3%;
+    @media (max-width: 756px) {
+        width: 90%;
+        margin-left: 1%;
+        
+    } 
 
 `
 export const Titulo = styled.h1`
     margin-left: 8%;
     font-size: 40px;
+    @media (max-width: 756px) {
+        width: 90%;
+        margin-left:1%;
+    } 
 `
