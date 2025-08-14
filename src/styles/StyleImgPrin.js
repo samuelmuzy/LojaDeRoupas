@@ -19,8 +19,8 @@ export const Button = styled.button`
     }
     @media (max-width: 756px) {
         width: 90%;
-        margin-left: 4%;
-        
+        margin-left: 0%;
+        align-self: center;
     } 
 `
 
@@ -35,7 +35,7 @@ export const DivPrincipal = styled.div`
     background-size: cover;
     @media (max-width: 756px) {
         text-align:center ;
-        background-size: 1000;
+        background-size: 100;
         background-position: 70%;
     } 
 `;
@@ -45,8 +45,8 @@ export const Texto = styled.p`
     margin-left: 8%;
     margin-top: 3%;
     @media (max-width: 756px) {
-        width: 90%;
-        margin-left: 1%;
+        width: 100%;
+        margin-left: 0%;
         
     } 
 
@@ -55,7 +55,7 @@ export const Titulo = styled.h1`
     margin-left: 8%;
     font-size: 40px;
     @media (max-width: 756px) {
-        width: 90%;
-        margin-left:1%;
+        width: 100%;
+        margin-left:0%;
     } 
 `

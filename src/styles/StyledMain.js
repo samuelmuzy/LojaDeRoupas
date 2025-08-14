@@ -17,7 +17,7 @@ export const DivConteudos = styled.div`
         width: 90%;
         flex-direction:column-reverse;
         text-align: center;
-        padding: 10%;
+        padding: 7% 0% 7% 0%;
     } 
 `
 
@@ -28,7 +28,7 @@ export const DivProdutos = styled.div`
     padding: 20px;
     @media (max-width: 756px) {
         width: 90%;
-        padding  :4% ;
+        padding :4% ;
         
     } 
 `
@@ -61,7 +61,7 @@ export const ImagemMaior = styled.img`
 export const TextVerao = styled.p`
     width: 600px;
     @media (max-width: 756px) {
-        width: 90%;
+        width: 100%;
         
     } 
 `
